@@ -1,0 +1,10 @@
+实现了一堆乱七八糟但是没什么卵用的模型：
+	单卷积核CNN
+	多卷积核CNN
+	多层CNN
+	attention-CNN
+	Transformer
+但是最好的效果是kernel_size=[2, 3, 4, 5]的卷积神经网络，可以达到89.24%的效果。
+原因：
+	使用的全部是random-embedding，如果换成word2vec的话效果应该会有提升；
+	参数调整上可能会有问题，尤其是transformer，参数的影响对于模型很大，这一部分还可以调整。
