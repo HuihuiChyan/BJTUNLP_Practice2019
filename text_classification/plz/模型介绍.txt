@@ -1,0 +1,12 @@
+读取文件：将数据集从本地读取后用preprocess（）函数向量化
+model：text_cnn
+第一层：embedding（64，300，embedding_size=128）
+second layer:conv2D(filter_sizes=3,4,5) relu激活
+third_layer: max_pool
+forth layer:Dropout(0.5)
+output:实际为Dense层，output的维度为2
+计算loss和accuracy
+train:刚开始每100step都evaluate一下测试集上的accuracy效果一直在60%徘徊
+后来整个模型都train好了后再来evaluat测试集的accuracy效果比之前好
+（lr：1e-3，没有随着step的增加对它做decay）
+
