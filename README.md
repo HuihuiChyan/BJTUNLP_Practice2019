@@ -58,7 +58,7 @@
 中文分词：
 
 - <https://www.aclweb.org/anthology/D15-1141>：Long Short-Term Memory Neural Networks for Chinese Word Segmentation 
-- Bakeoff2005提供的分词数据有三组，分别是pku,msr和cityu，为了便于比较，请仅仅使用msr的数据作为训练集和测试集；
+- Bakeoff2005提供的分词数据有三组，分别是pku,msr和cityu，为了便于比较，请仅使用msr的数据作为训练集和测试集；
 - 训练集里有一个空行，预处理的时候请小心；
 
 命名实体识别：
