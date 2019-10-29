@@ -1,0 +1,4 @@
+用keras实现的一个简单的textcnn模型，正确率只有88%
+用的是随机embedding，之后有时间再考虑word2vec和bert
+
+下一步应该是构想用cnn+lstm
