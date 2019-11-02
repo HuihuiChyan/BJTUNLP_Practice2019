@@ -25,12 +25,13 @@
 
 | 排名 | 模型名称          | F1值 | 提交时间      |
 | ---- | ----------------- | ------ | ------------- |
-| 1    | BMES              | 96.81% | 2019年10月25日|
-| 2    | AwesomeSegmentator   | 93.60% | 2019年10月29日|
+| 1    | kawhi849CWS         | 97.02% | 2019年11月2日|
+| 2    | BMES              | 96.81% | 2019年10月25日|
+| 3    | AwesomeSegmentator   | 93.60% | 2019年10月29日|
 
 文本匹配：
 
-| 排名 | 模型名称          | F1值 | 提交时间      |
+| 排名 | 模型名称          | 准确率 | 提交时间      |
 | ---- | ----------------- | ------ | ------------- |
 | 1    | kawhi849trash     | 64.95% | 2019年10月30日|
 
@@ -41,7 +42,7 @@
 | 1.文本分类(text classification)          | IMDB review           | Accuracy |
 | 2.中文分词(chinese word segmentation)    | MSR(from Bakeoff2005) | F1值     |
 | 3.命名实体识别(named entity recognition) | CoNLL03               | F1值     |
-| 4.文本匹配(text matching)                | SNLI1.0               | F1值     |
+| 4.文本匹配(text matching)                | SNLI1.0               | Accuracy |
 | 5.问答系统(Q-A system)                   | WikiQA                | F1值     |
 | 6.机器翻译(machine translation)          | UNParallel            | BLEU5    |
 
