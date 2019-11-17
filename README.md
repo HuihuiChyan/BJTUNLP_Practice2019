@@ -37,7 +37,8 @@
 
 | 排名 | 模型名称          | 准确率 | 提交时间      |
 | ---- | ----------------- | ------ | ------------- |
-| 1    | kawhi849trash     | 64.95% | 2019年10月30日|
+| 1    | AwesomeMatcher    | 67.86% | 2019年11月17日|
+| 2    | kawhi849trash     | 64.95% | 2019年10月30日|
 
 ### 任务内容
 
@@ -84,6 +85,7 @@
 
 - https://arxiv.org/pdf/1509.06664v1.pdf ：Reasoning about Entailment with Neural Attention
 - https://arxiv.org/pdf/1609.06038v3.pdf ：Enhanced LSTM for Natural Language Inference
+- 建议借助注意力机制实现。如果参考的是ESIM模型（即上面的第二篇论文），可以只用LSTM，忽略Tree-LSTM；
 
 检索式问答：
 
